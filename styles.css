@@ -157,3 +157,61 @@ section {
     font-weight: 700;
     margin: 10px;
 }
+
+
+.projets {
+    background-color: darkgray;
+}
+
+.projets .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .projet-img {
+    opacity: 0.9;
+ }
+.projet-img img {
+    width: 100%;
+}
+
+.projet-info {
+    padding: 1em;
+}
+
+.projet-categorie {
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.plus-detail {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.plus-detail:hover {
+    color: darkred;
+}
